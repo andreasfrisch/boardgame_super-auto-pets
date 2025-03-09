@@ -35,6 +35,12 @@
 	\draw[gray, fill=lightgray] \shapeCardTextBox;
 }
 
+\newcommand{\colouredCardBorder}{	
+	\draw[lightgray,cardcorners, fill=orange] \shapeCard;
+	\draw[black,cardcorners, fill=white] \shapeCardInternal;
+	\draw[gray, fill=lightgray] \shapeCardTextBox;
+}
+
 \newcommand{\cardName}[1]{
 	\node at (0.5*\cardWidth, \cardHeight-5.5*\cardMargin) {\scalebox{1.3}{\bf{#1}}};
 }
