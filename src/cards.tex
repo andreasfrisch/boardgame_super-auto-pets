@@ -1,0 +1,170 @@
+\documentclass[a4paper]{article}
+\input{include/libs.tex}
+\input{include/colors.tex}
+\input{include/card_definitions.tex}
+
+\begin{document}
+\begin{center}
+\pagestyle{empty}
+\hyphenpenalty=10000
+
+\noindent
+\begin{tikzpicture}
+	\cardBorder
+	\levelIcon
+	\cardName{Bison}
+	\cardType{Animal}
+	\image{images/bison.png}
+	\cardText{}
+	\cardPower{2/4/6}
+\end{tikzpicture}%
+\begin{tikzpicture}
+	\cardBorder
+	\levelIcon
+	\cardName{Flamingo}
+	\cardType{Animal}
+	\image{images/flamingo.png}
+	\cardText{Combat; If wounded, give 1/2/3 power to the two friends behind this stack.}
+	\cardPower{0/1/2}
+\end{tikzpicture}%
+\begin{tikzpicture}
+	\cardBorder
+	\levelIcon
+	\cardName{Monkey}
+	\cardType{Animal}
+	\image{images/monkey.png}
+	\cardText{Combat; Give 2/4/6 power to front friend.}
+	\cardPower{0/1/2}
+\end{tikzpicture}%
+
+\noindent
+\begin{tikzpicture}
+	\cardBorder
+	\levelIcon
+	\cardName{Pig}
+	\cardType{Animal}
+	\image{images/pig.png}
+	\cardText{When Sold; You may immediately draft 1/1/2 cards from the market.}
+	\cardPower{1/2/4}
+\end{tikzpicture}%
+\begin{tikzpicture}
+	\cardBorder
+	\levelIcon
+	\cardName{Scorpion}
+	\cardType{Animal}
+	\image{images/scorpion.png}
+	\cardText{Pre combat; All animals in the same column as this scorpion are wounded.}
+	\cardPower{2/4/6}
+\end{tikzpicture}%
+\begin{tikzpicture}
+	\cardBorder
+	\levelIcon
+	\cardName{Carrion}
+	\cardType{Animal}
+	\image{images/carrion.png}
+	\cardText{Combat; Add 1/2/3 power for each wounded friend.}
+	\cardPower{1/2/3}
+\end{tikzpicture}%
+
+\noindent
+\begin{tikzpicture}
+	\cardBorder
+	\levelIcon
+	\cardName{Puffin}
+	\cardType{Animal}
+	\image{images/puffin.png}
+	\cardText{Draft; Before drafting, you may draw up to 1/2/3 cards from the deck. All cards must be kept.}
+	\cardPower{0/1/2}
+\end{tikzpicture}%
+\begin{tikzpicture}
+	\cardBorder
+	\levelIcon
+	\cardName{Frog}
+	\cardType{Animal}
+	\image{images/frog.png}
+	\cardText{Draft; The frog may replace an existing stack, then replace that entire stack into your tableau as if just drafted.}
+	\cardPower{1/2/3}
+\end{tikzpicture}%
+\begin{tikzpicture}
+	\cardBorder
+	\levelIcon
+	\cardName{Cat}
+	\cardType{Animal}
+	\image{images/cat.png}
+	\cardText{When sold: Earn an additional 0/1/2 victory points.}
+	\cardPower{0/1/2}
+\end{tikzpicture}%
+
+\noindent
+\begin{tikzpicture}
+	\cardBorder
+	\levelIcon
+	\cardName{Mosquito}
+	\cardType{Animal}
+	\image{images/mosquito.png}
+	\cardText{Pre combat; Roll one die. All stacks of level 1/2/3 in the rolled column are wounded. On a 6 you choose the column.}
+	\cardPower{0/1/2}
+\end{tikzpicture}%
+\begin{tikzpicture}
+	\cardBorder
+	\levelIcon
+	\cardName{Horse}
+	\cardType{Animal}
+	\image{images/horse.png}
+	\cardText{Combat; Get additional 1/2/3 power for each unwounded \textit{neigh}bour.}
+	\cardPower{0/1/2}
+\end{tikzpicture}%
+\begin{tikzpicture}
+	\cardBorder
+	\levelIcon
+	\cardName{Bee}
+	\cardType{Animal}
+	\image{images/bee.png}
+	\cardText{When wounded: You may immediately sell this stack. If you do, you may draft 1/1/2 cards from the market.}
+	\cardPower{2/3/4}
+\end{tikzpicture}%
+
+\noindent
+\begin{tikzpicture}
+	\cardBorder
+	\levelIcon
+	\cardName{Dog}
+	\cardType{Animal}
+	\image{images/dog.png}
+	\cardText{Combat: Gain additional 1/2/3 power for each empty space in your tableau.}
+	\cardPower{0/1/2}
+\end{tikzpicture}%
+\begin{tikzpicture}
+	\cardBorder
+	\levelIcon
+	\cardName{Chocolate}
+	\cardType{Food}
+	\image{images/chocolate.png}
+	\cardText{When equipped: Tuck this chocolate under the equipped stack. Chocolate count as an animal of that type.}
+\end{tikzpicture}%
+\begin{tikzpicture}
+	\cardBorder
+	\cardName{Honey}
+	\cardType{Food}
+	\image{images/honey.png}
+	\cardText{When wounded: You may immediately sell this stack. If you do, you may draft 1/1/2 cards from the market.}
+\end{tikzpicture}%
+
+\noindent
+\begin{tikzpicture}
+	\cardBorder
+	\cardName{Sushi}
+	\cardType{Food}
+	\image{images/sushi.png}
+	\cardText{The equipped stack gain 3 power.}
+\end{tikzpicture}%
+\begin{tikzpicture}
+	\cardBorder
+	\cardName{Melon}
+	\cardType{Food}
+	\image{images/melon.png}
+	\cardText{The equipped stack gains 1 power and cannot be wounded.}
+\end{tikzpicture}%
+
+\end{center}
+\end{document}
