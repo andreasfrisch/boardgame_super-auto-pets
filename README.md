@@ -16,6 +16,7 @@ Furthermore players can gain victory points by selling stacks of cards in their 
 
 ## Setup
 Shuffle all cards and deal 9 cards in a 3x3 grid in the center of the table. This is the market.
+If playing with 4 players deal 12 cards in a 3x4 grid instead.
 Each player receives a player board.
 Place the victory point tokens in a pile next to the market.
 
